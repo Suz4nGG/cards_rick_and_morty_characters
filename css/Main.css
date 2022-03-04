@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300;600&display=swap');
+
+:root {
+  --pr1: #212831;
+  --pr2: #289bde;
+  --pr3: #F3FBFF;
+  --pr4: #FFB803;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--pr3);
+  box-sizing: border-box;
+  font-family: 'Smooch Sans', sans-serif;
+}
+
+body {
+  background: var(--pr3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  background: var(--pr2);
+  letter-spacing: 1px;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-weight: 700;
+  margin-top: 16px;
+  transition: 0.1s;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  box-shadow: 0 0 10px rgba(134, 134, 134, 0.5);
+  background: var(--pr4);
+  color: var(--pr1);
+}
+
+p {
+  margin-top: .2rem;
+  font-weight: 700;
+}
+
+p span {
+  color: var(--pr4);
+}
+
+.container {
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.4);
+  background: var(--pr1);
+  border-radius: 5px;
+  max-width: 400px;
+  padding: 32px;
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: var(--pr3);
+}
+
+.sub-title {
+  border-bottom: 1px solid var(--pr3);
+  padding-bottom: .3rem;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.image {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.459);
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.episodes {
+  font-size: 1.2rem;
+}
+
+.box-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
